@@ -7,9 +7,11 @@ Steps:
 2. Open a terminal (Command Prompt or PowerShell).
 
 3. Authenticate ngrok (only once):
+   
   ngrok config add-authtoken YOUR_AUTHTOKEN
+  
 (You can find your auth token in your ngrok dashboard.)
 
-4. Start a tunnel to your local port (for example, port 5000):
+5. Start a tunnel to your local port (for example, port 5000):
   ngrok http 8000
-5. ngrok will give you a public URL (like https://abc123.ngrok.io) that redirects to your local server.
+6. ngrok will give you a public URL (like https://abc123.ngrok.io) that redirects to your local server.
