@@ -8,10 +8,12 @@ Steps:
 
 3. Authenticate ngrok (only once):
    
-  ngrok config add-authtoken YOUR_AUTHTOKEN
-  
-(You can find your auth token in your ngrok dashboard.)
+     ngrok config add-authtoken YOUR_AUTHTOKEN
+     
+   (You can find your auth token in your ngrok dashboard.)
 
-5. Start a tunnel to your local port (for example, port 5000):
+5. Start a tunnel to your local port (for example, port 8000):
+   
   ngrok http 8000
-6. ngrok will give you a public URL (like https://abc123.ngrok.io) that redirects to your local server.
+  
+7. ngrok will give you a public URL (like https://abc123.ngrok.io) that redirects to your local server.
